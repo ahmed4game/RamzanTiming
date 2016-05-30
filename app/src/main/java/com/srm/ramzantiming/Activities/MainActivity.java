@@ -103,10 +103,28 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             //Loading image
             profilePhoto.setImageUrl(acct.getPhotoUrl().toString(), imageLoader);
 
+            goToAlarmActivity();
+
         } else {
             //If login fails
             Toast.makeText(this, "Login Failed", Toast.LENGTH_LONG).show();
         }
+    }
+
+    private void goToAlarmActivity() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    Thread.sleep(5000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }finally {
+                    Intent intent = new Intent(MainActivity.this,AlarmActivity.class);
+                    startActivity(intent);
+                }
+            }
+        }).start();
     }
 
     @Override

@@ -7,5 +7,12 @@ import android.app.Application;
  */
 public class AppController extends Application {
 
+    private static AppController ourInstance = new AppController();
 
+    public static AppController getInstance() {
+        return ourInstance;
+    }
+
+    public AppController() {
+    }
 }
