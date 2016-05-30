@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "269926281124",
+    "project_id": "ramzantiming"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269926281124:android:fe436641f0918bdd",
+        "android_client_info": {
+          "package_name": "com.srm.ramzantiming"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269926281124-207fg7dosnjphkueok3q0k6e2b01pfk4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.srm.ramzantiming",
+            "certificate_hash": "E80AD879F5B82AF7E8229B815A65588F5F770B7D"
+          }
+        },
+        {
+          "client_id": "269926281124-c73oaakacep231s3j31qq3eqlll4a879.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_8inT1JdsntouEketSwxq-txjhdigCEs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2,
+          "test_banner_ad_unit_id": "ca-app-pub-3940256099942544/6300978111",
+          "test_interstitial_ad_unit_id": "ca-app-pub-3940256099942544/1033173712"
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
